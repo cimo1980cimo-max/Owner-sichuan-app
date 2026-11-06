@@ -1,0 +1,1661 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#D92D20">
+  
+  <!-- SEO Optimizations -->
+  <title>Sichuan.fr - 11 وصفات سيتشوان أصلية | 11 Recettes Sichuan Authentiques</title>
+  <meta name="description" content="تعلم 11 وصفة سيتشوان أصلية: لازيجي، مابو توفو، كونغ باو. فيديوهات، مؤقتات، مقادير قابلة للتعديل. Recettes Sichuan authentiques avec vidéos.">
+  <meta name="keywords" content="sichuan, laziji, mapo tofu, kung pao, recettes chinoises, وصفات صينية, سيتشوان">
+  <link rel="canonical" href="https://sichuan.fr">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Sichuan.fr - 11 وصفات سيتشوان أصلية">
+  <meta property="og:description" content="دليل شامل لوصفات سيتشوان مع فيديوهات ومؤقتات">
+  <meta property="og:image" content="https://sichuan.fr/og-image.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ar_MA">
+  <meta property="og:locale:alternate" content="fr_FR">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sichuan.fr - Recettes Authentiques">
+  <meta name="twitter:description" content="11 recettes Sichuan avec vidéos">
+  
+  <!-- Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://www.youtube.com">
+  
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  
+  <!-- AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3200003618159290" crossorigin="anonymous"></script>
+  
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Sichuan.fr",
+    "alternateName": "مطبخ سيتشوان",
+    "url": "https://sichuan.fr",
+    "description": "11 وصفات سيتشوان أصلية مع فيديوهات",
+    "inLanguage": ["ar", "fr"],
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://sichuan.fr/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  
+  <style>
+    :root {
+      --background: #FFF7ED;
+      --foreground: #1A1207;
+      --muted: #8A7562;
+      --muted-strong: #3D2E22;
+      --border: #F0DCC6;
+      --primary: #D92D20;
+      --primary-light: #FEE2E2;
+      --timer-bg: #FFF1E6;
+      --success: #10B981;
+      --warning: #F59E0B;
+      --radius-sm: 8px;
+      --radius-md: 16px;
+      --radius-lg: 24px;
+      --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+      --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+      --shadow-lg: 0 12px 40px rgba(0,0,0,0.12);
+      --safe-area-top: env(safe-area-inset-top, 0px);
+      --safe-area-bottom: env(safe-area-inset-bottom, 0px);
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #1A1207;
+        --foreground: #FFF7ED;
+        --muted: #B8A090;
+        --muted-strong: #E8D8C8;
+        --border: #3A2A1D;
+        --timer-bg: #2A1A0F;
+        --primary-light: #7F1D1D;
+      }
+    }
+    
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    html {
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: 100%;
+    }
+    
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+      background: var(--background);
+      color: var(--foreground);
+      line-height: 1.5;
+      min-height: 100vh;
+      overflow-x: hidden;
+      padding-top: var(--safe-area-top);
+      padding-bottom: var(--safe-area-bottom);
+    }
+    
+    /* Loading Skeleton */
+    .skeleton {
+      background: linear-gradient(90deg, var(--border) 25%, transparent 50%, var(--border) 75%);
+      background-size: 200% 100%;
+      animation: shimmer 1.5s infinite;
+      border-radius: var(--radius-sm);
+    }
+    
+    @keyframes shimmer {
+      0% { background-position: 200% 0; }
+      100% { background-position: -200% 0; }
+    }
+    
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+    
+    .animate-fade-in {
+      animation: fadeIn 0.4s ease-out forwards;
+    }
+    
+    /* Video Lazy Load */
+    .video-container {
+      position: relative;
+      aspect-ratio: 16/9;
+      background: #000;
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      cursor: pointer;
+    }
+    
+    .video-container::before {
+      content: '▶';
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 48px;
+      color: white;
+      background: rgba(0,0,0,0.5);
+      z-index: 1;
+      transition: background 0.2s;
+    }
+    
+    .video-container:hover::before {
+      background: rgba(0,0,0,0.3);
+    }
+    
+    .video-container iframe {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    
+    /* Toast Notifications */
+    .toast {
+      position: fixed;
+      bottom: 100px;
+      left: 50%;
+      transform: translateX(-50%) translateY(20px);
+      background: var(--foreground);
+      color: var(--background);
+      padding: 12px 24px;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 14px;
+      box-shadow: var(--shadow-lg);
+      opacity: 0;
+      transition: all 0.3s ease;
+      z-index: 1000;
+    }
+    
+    .toast.show {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+    }
+    
+    /* Ad Container */
+    .ad-container {
+      min-height: 90px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--timer-bg);
+      border: 1px dashed var(--border);
+      border-radius: var(--radius-md);
+      color: var(--muted);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+    
+    /* Focus Visible */
+    :focus-visible {
+      outline: 2px solid var(--primary);
+      outline-offset: 2px;
+    }
+    
+    /* Skip Link */
+    .skip-link {
+      position: absolute;
+      top: -100px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--foreground);
+      color: var(--background);
+      padding: 12px 24px;
+      border-radius: 0 0 var(--radius-md) var(--radius-md);
+      z-index: 9999;
+      transition: top 0.2s;
+    }
+    
+    .skip-link:focus {
+      top: 0;
+    }
+    
+    /* Print Styles */
+    @media print {
+      header, footer, .ad-container, .no-print {
+        display: none !important;
+      }
+      
+      body {
+        background: white;
+        color: black;
+      }
+    }
+    
+    /* Reduced Motion */
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">تخطي إلى المحتوى / Aller au contenu</a>
+  
+  <div id="root">
+    <!-- Loading State -->
+    <div style="min-height: 100vh; display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 16px;">
+      <div class="skeleton" style="width: 60px; height: 60px; border-radius: 50%;"></div>
+      <div class="skeleton" style="width: 200px; height: 20px;"></div>
+      <div class="skeleton" style="width: 150px; height: 16px;"></div>
+    </div>
+  </div>
+  
+  <!-- Toast Container -->
+  <div id="toast-container"></div>
+
+  <script type="module">
+    // ============================================
+    // SICHUAN RECIPES - Optimized Application
+    // ============================================
+    
+    import React, { useState, useEffect, useMemo, useRef, useCallback, createContext, useContext } from 'react';
+    import { createRoot } from 'react-dom/client';
+    
+    const h = React.createElement;
+    
+    // ============================================
+    // DATA LAYER
+    // ============================================
+    
+    const VIDEOS = {
+      'laziji': 'UoMTKhqTf1U',
+      'mapo-tofu': 'jCyzcDODL0I',
+      'kung-pao': 'WzYvYbAK4JQ',
+      'dandan-mian': '3_M_iWOgH9g',
+      'yu-xiang-qie-zi': 'KwVe885bkb8',
+      'shui-zhu-niu-rou': '2LR9XKDSBEo',
+      'porc-aigre-douce': 'sN900oyBcz4',
+      'poulet-sel-poivre': '9TCSAvwkrYU',
+      'chou-chinois': 'MBGfpCxhU_0',
+      'gan-dou-fu': 'QvjD-snqG1c',
+      'gan-bian-xia': 'ecM5vKL2lG8'
+    };
+    
+    const RECIPES = [
+      {
+        id: 'laziji',
+        name: 'Poulet façon Laziji',
+        nameAr: 'دجاج لازيجي المقرمش الحار',
+        chinese: '辣子鸡',
+        emoji: '🍗',
+        color: '#D92D20',
+        spice: 4,
+        prep: '15 min',
+        cook: '20 min',
+        calories: '380-480 kcal',
+        difficulty: 'Moyenne',
+        difficultyAr: 'متوسطة',
+        badge: 'Recette à la une',
+        badgeAr: 'الوصفة المميزة',
+        intro: 'Le plat culte des rues de Chongqing : des dés de poulet ultra-croustillants enfouis sous une mer de piments séchés.',
+        introAr: 'الطبق الأسطوري من شوارع تشونغتشينغ: مكعبات دجاج مقرمشة جداً مدفونة تحت بحر من الفلفل المجفف.',
+        story: 'Né dans les ruelles brumeuses de Chongqing, le Laziji est l\'emblème de la cuisine málà.',
+        storyAr: 'ولد هذا الطبق في الأزقة الضبابية لمدينة تشونغتشينغ، وهو رمز مطبخ مالا.',
+        ingredients: [
+          { id: 'poulet', name: 'Hauts de cuisse de poulet', nameAr: 'أفخاذ دجاج', qty: 400, unit: 'g', unitAr: 'غ' },
+          { id: 'soja', name: 'Sauce soja claire', nameAr: 'صلصة الصويا', qty: 1, unit: 'c.à.s', unitAr: 'م.ك' },
+          { id: 'piments', name: 'Piments séchés', nameAr: 'فلفل مجفف', qty: 40, unit: 'g', unitAr: 'غ' },
+          { id: 'sichuan', name: 'Poivre du Sichuan', nameAr: 'فلفل سيتشوان', qty: 1, unit: 'c.à.c', unitAr: 'م.ص' },
+          { id: 'ail', name: 'Ail', nameAr: 'ثوم', qty: 3, unit: 'gousses', unitAr: 'فصوص' },
+          { id: 'gingembre', name: 'Gingembre', nameAr: 'زنجبيل', qty: 15, unit: 'g', unitAr: 'غ' }
+        ],
+        steps: [
+          { title: 'Découpe & marinade', titleAr: 'التقطيع والتتبيل', time: '10 min', detail: 'Coupez le poulet en cubes de 2 cm. Mélangez avec sauce soja et fécule.', detailAr: 'قطع الدجاج مكعبات 2 سم. اخلط مع صلصة الصويا والنشا.', timer: null },
+          { title: 'Première friture', titleAr: 'القلي الأول', time: '3-4 min', detail: 'Chauffez l\'huile à 170°C. Frire le poulet en 2 fois.', detailAr: 'سخن الزيت إلى 170°. اقلي الدجاج على دفعتين.', timer: 210 },
+          { title: 'Torréfaction des épices', titleAr: 'تحميص التوابل', time: '45 sec', detail: 'Torréfiez le poivre de Sichuan puis ajoutez les piments.', detailAr: 'حمص فلفل سيتشوان ثم أضف الفلفل المجفف.', timer: 45 },
+          { title: 'Sauté final', titleAr: 'القلي النهائي', time: '2 min', detail: 'Saisissez gingembre, ail et poulet à feu vif.', detailAr: 'اقلي الزنجبيل والثوم والدجاج على نار عالية.', timer: 120 }
+        ],
+        tips: [
+          { icon: '🚫', t: 'Ne mange pas les piments', tAr: 'لا تأكل الفلفل', d: 'Ils parfument l\'huile seulement.', dAr: 'هو يعطر الزيت فقط.' },
+          { icon: '✨', t: 'Double friture', tAr: 'قلي مزدوج', d: '170°C puis 185°C pour un croustillant durable.', dAr: '170° ثم 185° لقرمشة تدوم.' }
+        ],
+        keywords: ['poulet laziji', 'laziji Chongqing', 'poulet pimenté sichuan']
+      },
+      {
+        id: 'mapo-tofu',
+        name: 'Mapo Tofu',
+        nameAr: 'توفو مابو الحار',
+        chinese: '麻婆豆腐',
+        emoji: '🧈',
+        color: '#B71C1C',
+        spice: 4,
+        prep: '10 min',
+        cook: '12 min',
+        calories: '280-350 kcal',
+        difficulty: 'Facile',
+        difficultyAr: 'سهل',
+        badge: 'Végé possible',
+        badgeAr: 'ممكن نباتي',
+        intro: 'Le plus célèbre tofu du monde, né chez Madame Mapo en 1862 à Chengdu.',
+        introAr: 'أشهر توفو في العالم، ولد عند السيدة مابو عام 1862 في تشنغدو.',
+        story: 'Chen Mapo tenait une gargote près du pont Wanfu à Chengdu.',
+        storyAr: 'كانت تشن مابو تدير مطعماً صغيراً قرب جسر وانفو في تشنغدو.',
+        ingredients: [
+          { id: 'tofu', name: 'Tofu soyeux', nameAr: 'توفو حريري', qty: 400, unit: 'g', unitAr: 'غ' },
+          { id: 'porc', name: 'Porc haché', nameAr: 'لحم مفروم', qty: 100, unit: 'g', unitAr: 'غ' },
+          { id: 'douban', name: 'Doubanjiang', nameAr: 'دوبانجيانغ', qty: 2, unit: 'c.à.s', unitAr: 'م.ك' }
+        ],
+        steps: [
+          { title: 'Préparer tofu', titleAr: 'تحضير التوفو', time: '2 min', detail: 'Blanchissez le tofu 60 sec.', detailAr: 'اسلق التوفو 60 ثانية.', timer: 60 },
+          { title: 'Base Mapo', titleAr: 'قاعدة مابو', time: '2 min', detail: 'Faites revenir porc et doubanjiang.', detailAr: 'اقلي اللحم والدوبانجيانغ.', timer: 90 },
+          { title: 'Mijoter', titleAr: 'طهي', time: '3 min', detail: 'Ajoutez tofu et laissez mijoter.', detailAr: 'أضف التوفو واتركه يطبخ.', timer: 150 }
+        ],
+        tips: [
+          { icon: '🍮', t: 'Ne cassez pas le tofu', tAr: 'لا تكسر التوفو', d: 'Secouez le wok doucement.', dAr: 'هز الووك بلطف.' }
+        ],
+        keywords: ['mapo tofu', 'doubanjiang', 'tofu sichuan']
+      },
+      {
+        id: 'kung-pao',
+        name: 'Poulet Kung Pao',
+        nameAr: 'دجاج كونغ باو',
+        chinese: '宫保鸡丁',
+        emoji: '🥜',
+        color: '#8D6E63',
+        spice: 3,
+        prep: '15 min',
+        cook: '10 min',
+        calories: '420-520 kcal',
+        difficulty: 'Facile',
+        difficultyAr: 'سهل',
+        badge: 'Classique',
+        badgeAr: 'كلاسيكي',
+        intro: 'Inventé au palais du gouverneur Ding Baozhen au 19e siècle.',
+        introAr: 'اخترع في قصر الحاكم دينغ باوجين في القرن 19.',
+        story: 'Le Gong Bao Ji Ding doit son nom à Ding Baozhen, gouverneur du Sichuan.',
+        storyAr: 'سمي غونغ باو جي دينغ باسم دينغ باوجين، حاكم سيتشوان.',
+        ingredients: [
+          { id: 'kp-poulet', name: 'Hauts de cuisse', nameAr: 'أفخاذ دجاج', qty: 350, unit: 'g', unitAr: 'غ' },
+          { id: 'kp-cacahuete', name: 'Cacahuètes', nameAr: 'فول سوداني', qty: 50, unit: 'g', unitAr: 'غ' },
+          { id: 'kp-vinaigre', name: 'Vinaigre noir', nameAr: 'خل أسود', qty: 1, unit: 'c.à.s', unitAr: 'م.ك' }
+        ],
+        steps: [
+          { title: 'Marinade', titleAr: 'تتبيل', time: '10 min', detail: 'Marinez le poulet.', detailAr: 'تبل الدجاج.', timer: null },
+          { title: 'Torréfaction', titleAr: 'تحميص', time: '2 min', detail: 'Torréfiez les cacahuètes.', detailAr: 'حمص الفول السوداني.', timer: 90 },
+          { title: 'Sauté', titleAr: 'قلي', time: '3 min', detail: 'Saisissez le poulet.', detailAr: 'اقلي الدجاج.', timer: 180 }
+        ],
+        tips: [
+          { icon: '🥜', t: 'Cacahuètes séparées', tAr: 'فول منفصل', d: 'Pour garder le croquant.', dAr: 'للحفاظ على القرمشة.' }
+        ],
+        keywords: ['kung pao', 'gong bao ji ding', 'poulet cacahuètes']
+      },
+      {
+        id: 'dandan-mian',
+        name: 'Nouilles Dandan',
+        nameAr: 'نودلز داندان',
+        chinese: '担担面',
+        emoji: '🍜',
+        color: '#AD1457',
+        spice: 4,
+        prep: '15 min',
+        cook: '10 min',
+        calories: '520-620 kcal',
+        difficulty: 'Moyenne',
+        difficultyAr: 'متوسطة',
+        badge: 'Street-food',
+        badgeAr: 'أكل شارع',
+        intro: 'Nouilles mythiques des porteurs de bambou de Chengdu.',
+        introAr: 'نودلز أسطورية لحمالي الخيزران في تشنغدو.',
+        story: 'Les porteurs dan dan vendaient ces nouilles dans deux seaux en bambou.',
+        storyAr: 'باعة دان دان كانوا يبيعون النودلز في دلوين خيزران.',
+        ingredients: [
+          { id: 'dd-nouilles', name: 'Nouilles de blé', nameAr: 'نودلز قمح', qty: 200, unit: 'g', unitAr: 'غ' },
+          { id: 'dd-porc', name: 'Porc haché', nameAr: 'لحم مفروم', qty: 120, unit: 'g', unitAr: 'غ' },
+          { id: 'dd-sesame', name: 'Pâte de sésame', nameAr: 'معجون سمسم', qty: 1, unit: 'c.à.s', unitAr: 'م.ك' }
+        ],
+        steps: [
+          { title: 'Sauce porc', titleAr: 'صلصة اللحم', time: '5 min', detail: 'Faites revenir le porc.', detailAr: 'اقلي اللحم.', timer: 180 },
+          { title: 'Base sésame', titleAr: 'قاعدة السمسم', time: '1 min', detail: 'Préparez la sauce sésame.', detailAr: 'حضر صلصة السمسم.', timer: null },
+          { title: 'Cuire nouilles', titleAr: 'طهي النودلز', time: '3 min', detail: 'Cuisez les nouilles.', detailAr: 'اطبخ النودلز.', timer: 180 }
+        ],
+        tips: [
+          { icon: '🍜', t: 'Nouilles alcalines', tAr: 'نودلز قلوية', d: 'Plus élastiques.', dAr: 'أكثر مطاطية.' }
+        ],
+        keywords: ['dandan noodles', 'dandan mian', 'nouilles sichuan']
+      },
+      {
+        id: 'yu-xiang-qie-zi',
+        name: 'Aubergines Yu Xiang',
+        nameAr: 'باذنجان يو شيانغ',
+        chinese: '鱼香茄子',
+        emoji: '🍆',
+        color: '#6A1B9A',
+        spice: 2,
+        prep: '10 min',
+        cook: '15 min',
+        calories: '250-320 kcal',
+        difficulty: 'Facile',
+        difficultyAr: 'سهل',
+        badge: 'Végétarien',
+        badgeAr: 'نباتي',
+        intro: 'Yu Xiang signifie "parfum de poisson" mais sans poisson.',
+        introAr: 'يو شيانغ تعني عطر السمك لكن بدون سمك.',
+        story: 'Les pêcheurs du fleuve Jialing assaisonnaient leur poisson avec doubanjiang.',
+        storyAr: 'صيادو نهر جيالينغ كانوا يتبلون سمكهم بدوبانجيانغ.',
+        ingredients: [
+          { id: 'yx-aub', name: 'Aubergines', nameAr: 'باذنجان', qty: 400, unit: 'g', unitAr: 'غ' },
+          { id: 'yx-douban', name: 'Doubanjiang', nameAr: 'دوبانجيانغ', qty: 1.5, unit: 'c.à.s', unitAr: 'م.ك' }
+        ],
+        steps: [
+          { title: 'Frire aubergines', titleAr: 'قلي الباذنجان', time: '6 min', detail: 'Faites frire les aubergines.', detailAr: 'اقلي الباذنجان.', timer: 300 },
+          { title: 'Base sauce', titleAr: 'قاعدة الصلصة', time: '2 min', detail: 'Préparez la sauce Yu Xiang.', detailAr: 'حضر صلصة يو شيانغ.', timer: 90 }
+        ],
+        tips: [
+          { icon: '🍆', t: 'Moins d\'huile', tAr: 'زيت أقل', d: 'Saupoudrez de sel avant.', dAr: 'رش ملح قبل القلي.' }
+        ],
+        keywords: ['aubergine yu xiang', 'yu xiang qie zi', 'aubergine chinoise']
+      },
+      {
+        id: 'shui-zhu-niu-rou',
+        name: 'Bœuf Shui Zhu',
+        nameAr: 'لحم بقري شوي زو',
+        chinese: '水煮牛肉',
+        emoji: '🥩',
+        color: '#C41E0A',
+        spice: 5,
+        prep: '20 min',
+        cook: '15 min',
+        calories: '450-550 kcal',
+        difficulty: 'Moyenne',
+        difficultyAr: 'متوسطة',
+        badge: 'Spectaculaire',
+        badgeAr: 'مذهل',
+        intro: 'Bœuf ultra-tendre sous une montagne d\'huile bouillante.',
+        introAr: 'لحم بقري طري جداً تحت جبل من الزيت المغلي.',
+        story: 'Né à Zigong, ville du sel et des mines.',
+        storyAr: 'ولد في زيغونغ، مدينة الملح والمناجم.',
+        ingredients: [
+          { id: 'sz-boeuf', name: 'Bavette de bœuf', nameAr: 'لحم بقري', qty: 300, unit: 'g', unitAr: 'غ' },
+          { id: 'sz-douban', name: 'Doubanjiang', nameAr: 'دوبانجيانغ', qty: 1.5, unit: 'c.à.s', unitAr: 'م.ك' }
+        ],
+        steps: [
+          { title: 'Veloutage', titleAr: 'تطرية اللحم', time: '15 min', detail: 'Marinez le bœuf.', detailAr: 'تبل اللحم.', timer: null },
+          { title: 'Pocher', titleAr: 'سلق', time: '1 min', detail: 'Pochez le bœuf.', detailAr: 'اسلق اللحم.', timer: 45 },
+          { title: 'Explosion finale', titleAr: 'اللمسة النارية', time: '30 sec', detail: 'Versez huile bouillante.', detailAr: 'صب الزيت المغلي.', timer: null }
+        ],
+        tips: [
+          { icon: '🔪', t: 'Tranches congelées', tAr: 'شرائح مجمدة', d: '15 min au congélateur.', dAr: '15 دقيقة في المجمد.' }
+        ],
+        keywords: ['shui zhu niu rou', 'boeuf sichuan', 'boeuf pimenté']
+      },
+      {
+        id: 'porc-aigre-douce',
+        name: 'Porc aigre-doux',
+        nameAr: 'لحم حلو حامض',
+        chinese: '糖醋里脊',
+        emoji: '🍖',
+        color: '#EF6C00',
+        spice: 1,
+        prep: '15 min',
+        cook: '12 min',
+        calories: '480-580 kcal',
+        difficulty: 'Moyenne',
+        difficultyAr: 'متوسطة',
+        badge: 'Familial',
+        badgeAr: 'عائلي',
+        intro: 'Version Sichuan du porc aigre-doux croustillant.',
+        introAr: 'نسخة سيتشوان من الحلو الحامض المقرمش.',
+        story: 'À Chengdu, le Tang Cu Li Ji est servi lors des fêtes familiales.',
+        storyAr: 'في تشنغدو، يقدم في الأعياد العائلية.',
+        ingredients: [
+          { id: 'pa-porc', name: 'Filet de porc', nameAr: 'فيليه لحم', qty: 350, unit: 'g', unitAr: 'غ' },
+          { id: 'pa-vinaigre', name: 'Vinaigre noir', nameAr: 'خل أسود', qty: 2, unit: 'c.à.s', unitAr: 'م.ك' }
+        ],
+        steps: [
+          { title: 'Enrobage', titleAr: 'تغليف', time: '10 min', detail: 'Enrobez le porc.', detailAr: 'غلف اللحم.', timer: null },
+          { title: 'Friture', titleAr: 'قلي', time: '5 min', detail: 'Double friture.', detailAr: 'قلي مزدوج.', timer: 210 },
+          { title: 'Sauce', titleAr: 'صلصة', time: '1 min', detail: 'Préparez la sauce.', detailAr: 'حضر الصلصة.', timer: null }
+        ],
+        tips: [
+          { icon: '✨', t: 'Croustillant durable', tAr: 'قرمشة تدوم', d: 'Fécule de pomme de terre.', dAr: 'نشا البطاطس.' }
+        ],
+        keywords: ['porc aigre doux', 'tang cu li ji', 'porc croustillant']
+      },
+      {
+        id: 'poulet-sel-poivre',
+        name: 'Poulet sel & poivre',
+        nameAr: 'دجاج ملح وفلفل',
+        chinese: '椒盐鸡',
+        emoji: '🍗',
+        color: '#4E342E',
+        spice: 2,
+        prep: '10 min',
+        cook: '10 min',
+        calories: '380-460 kcal',
+        difficulty: 'Facile',
+        difficultyAr: 'سهل',
+        badge: 'Apéro',
+        badgeAr: 'مقبلات',
+        intro: 'Poulet frit sel et poivre avec poivre du Sichuan.',
+        introAr: 'دجاج مقلي ملح وفلفل مع فلفل سيتشوان.',
+        story: 'La version Sichuan ajoute le málà au classique.',
+        storyAr: 'نسخة سيتشوان تضيف المالا للكلاسيكي.',
+        ingredients: [
+          { id: 'ps-poulet', name: 'Hauts de cuisse', nameAr: 'أفخاذ دجاج', qty: 400, unit: 'g', unitAr: 'غ' },
+          { id: 'ps-sichuan', name: 'Poivre Sichuan', nameAr: 'فلفل سيتشوان', qty: 0.5, unit: 'c.à.c', unitAr: 'م.ص' }
+        ],
+        steps: [
+          { title: 'Marinade', titleAr: 'تتبيل', time: '15 min', detail: 'Marinez le poulet.', detailAr: 'تبل الدجاج.', timer: null },
+          { title: 'Friture', titleAr: 'قلي', time: '6 min', detail: 'Double friture.', detailAr: 'قلي مزدوج.', timer: 300 }
+        ],
+        tips: [
+          { icon: '🧄', t: 'Ail frit', tAr: 'ثوم مقلي', d: 'À part à 150°C.', dAr: 'منفصل على 150°.' }
+        ],
+        keywords: ['poulet sel poivre', 'jiao yan ji', 'poulet frit']
+      },
+      {
+        id: 'chou-chinois',
+        name: 'Chou chinois sauté',
+        nameAr: 'ملفوف صيني مقلي',
+        chinese: '炝炒白菜',
+        emoji: '🥬',
+        color: '#2E7D32',
+        spice: 2,
+        prep: '5 min',
+        cook: '4 min',
+        calories: '90-130 kcal',
+        difficulty: 'Très facile',
+        difficultyAr: 'سهل جداً',
+        badge: 'Express',
+        badgeAr: 'سريع',
+        intro: 'Le légume le plus cuisiné au Sichuan, sauté 90 secondes.',
+        introAr: 'أكثر خضار مطبوخ في سيتشوان، مقلي 90 ثانية.',
+        story: 'Qiang Chao veut dire "sauté parfumé".',
+        storyAr: 'تشيانغ تشاو تعني مقلي معطر.',
+        ingredients: [
+          { id: 'cc-chou', name: 'Chou chinois', nameAr: 'ملفوف صيني', qty: 400, unit: 'g', unitAr: 'غ' },
+          { id: 'cc-vinaigre', name: 'Vinaigre noir', nameAr: 'خل أسود', qty: 1, unit: 'c.à.s', unitAr: 'م.ك' }
+        ],
+        steps: [
+          { title: 'Sauté éclair', titleAr: 'قلي سريع', time: '90 sec', detail: 'Feu très vif.', detailAr: 'نار عالية جداً.', timer: 90 }
+        ],
+        tips: [
+          { icon: '🔥', t: 'Wok très chaud', tAr: 'ووك ساخن جداً', d: 'Petites quantités.', dAr: 'كميات صغيرة.' }
+        ],
+        keywords: ['chou chinois', 'pak choi piment', 'légume sichuan']
+      },
+      {
+        id: 'gan-dou-fu',
+        name: 'Tofu séché Gan Dou Fu',
+        nameAr: 'توفو مجفف بالفلفل',
+        chinese: '干豆腐炒辣椒',
+        emoji: '🧈',
+        color: '#795548',
+        spice: 3,
+        prep: '5 min',
+        cook: '8 min',
+        calories: '220-280 kcal',
+        difficulty: 'Très facile',
+        difficultyAr: 'سهل جداً',
+        badge: 'Protéine végé',
+        badgeAr: 'بروتين نباتي',
+        intro: 'Tofu pressé fumé sauté avec piments.',
+        introAr: 'توفو مضغوط مدخن مقلي مع فلفل.',
+        story: 'Plat quotidien au Sichuan, riche en protéines.',
+        storyAr: 'طبق يومي في سيتشوان، غني بالبروتين.',
+        ingredients: [
+          { id: 'gd-tofu', name: 'Tofu séché', nameAr: 'توفو مجفف', qty: 250, unit: 'g', unitAr: 'غ' },
+          { id: 'gd-poivron', name: 'Poivron', nameAr: 'فلفل', qty: 1, unit: '', unitAr: '' }
+        ],
+        steps: [
+          { title: 'Sauté tofu', titleAr: 'قلي التوفو', time: '3 min', detail: 'Dorez le tofu.', detailAr: 'حمر التوفو.', timer: 150 }
+        ],
+        tips: [
+          { icon: '🧱', t: 'Tofu ferme', tAr: 'توفو متماسك', d: 'Pressez 20 min.', dAr: 'اعصر 20 دقيقة.' }
+        ],
+        keywords: ['tofu séché piment', 'gan dou fu', 'tofu fumé']
+      },
+      {
+        id: 'gan-bian-xia',
+        name: 'Crevettes Gan Bian',
+        nameAr: 'روبيان مقلي جاف',
+        chinese: '干煸虾',
+        emoji: '🦐',
+        color: '#FF6F00',
+        spice: 3,
+        prep: '10 min',
+        cook: '8 min',
+        calories: '300-380 kcal',
+        difficulty: 'Facile',
+        difficultyAr: 'سهل',
+        badge: 'Fête',
+        badgeAr: 'احتفالي',
+        intro: 'Crevettes croustillantes avec piments.',
+        introAr: 'روبيان مقرمش مع فلفل.',
+        story: 'Technique née à Chengdu pour les petites crevettes.',
+        storyAr: 'تقنية ولدت في تشنغدو للروبيان الصغير.',
+        ingredients: [
+          { id: 'gb-crev', name: 'Crevettes', nameAr: 'روبيان', qty: 300, unit: 'g', unitAr: 'غ' },
+          { id: 'gb-piments', name: 'Piments séchés', nameAr: 'فلفل مجفف', qty: 15, unit: 'g', unitAr: 'غ' }
+        ],
+        steps: [
+          { title: 'Friture sèche', titleAr: 'قلي جاف', time: '4 min', detail: 'Frire les crevettes.', detailAr: 'اقلي الروبيان.', timer: 150 }
+        ],
+        tips: [
+          { icon: '🦐', t: 'Carapace croustillante', tAr: 'قشرة مقرمشة', d: 'Séchez bien.', dAr: 'جفف جيداً.' }
+        ],
+        keywords: ['crevettes gan bian', 'gan bian xia', 'crevettes pimentées']
+      }
+    ];
+    
+    const AFFILIATE_PRODUCTS = [
+      { id: 'sichuan-pepper', name: 'Poivre de Sichuan', nameAr: 'فلفل سيتشوان', price: '8,90€', emoji: '🌿', color: '#2E7D32' },
+      { id: 'facing-heaven', name: 'Piments Facing Heaven', nameAr: 'فلفل فايسينغ هيفن', price: '5,50€', emoji: '🌶️', color: '#C41E0A' },
+      { id: 'doubanjiang', name: 'Doubanjiang Pixian', nameAr: 'دوبانجيانغ', price: '9,90€', emoji: '🥫', color: '#B71C1C' },
+      { id: 'chili-oil', name: 'Huile pimentée', nameAr: 'زيت فلفل', price: '6,90€', emoji: '🌶️', color: '#D32F2F' }
+    ];
+    
+    // ============================================
+    // UTILITIES
+    // ============================================
+    
+    const formatQty = (qty, portions) => {
+      const result = qty * (portions / 2);
+      if (Number.isInteger(result)) return result;
+      if (result % 0.5 === 0) return result.toString().replace('.5', '½');
+      return Math.round(result * 10) / 10;
+    };
+    
+    const showToast = (message) => {
+      const container = document.getElementById('toast-container');
+      const toast = document.createElement('div');
+      toast.className = 'toast';
+      toast.textContent = message;
+      container.appendChild(toast);
+      requestAnimationFrame(() => toast.classList.add('show'));
+      setTimeout(() => {
+        toast.classList.remove('show');
+        setTimeout(() => toast.remove(), 300);
+      }, 3000);
+    };
+    
+    // ============================================
+    // HOOKS
+    // ============================================
+    
+    const useLocalStorage = (key, initial) => {
+      const [value, setValue] = useState(() => {
+        try {
+          const stored = localStorage.getItem(key);
+          return stored ? JSON.parse(stored) : initial;
+        } catch {
+          return initial;
+        }
+      });
+      
+      useEffect(() => {
+        try {
+          localStorage.setItem(key, JSON.stringify(value));
+        } catch {}
+      }, [key, value]);
+      
+      return [value, setValue];
+    };
+    
+    const useScrollProgress = () => {
+      const [progress, setProgress] = useState(0);
+      
+      useEffect(() => {
+        const handleScroll = () => {
+          const scrollTop = window.scrollY;
+          const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+          setProgress(scrollHeight > 0 ? Math.min(100, (scrollTop / scrollHeight) * 100) : 0);
+        };
+        
+        window.addEventListener('scroll', handleScroll, { passive: true });
+        handleScroll();
+        return () => window.removeEventListener('scroll', handleScroll);
+      }, []);
+      
+      return progress;
+    };
+    
+    const useMediaQuery = (query) => {
+      const [matches, setMatches] = useState(() => 
+        typeof window !== 'undefined' ? window.matchMedia(query).matches : false
+      );
+      
+      useEffect(() => {
+        const mql = window.matchMedia(query);
+        const handler = (e) => setMatches(e.matches);
+        mql.addEventListener('change', handler);
+        return () => mql.removeEventListener('change', handler);
+      }, [query]);
+      
+      return matches;
+    };
+    
+    // ============================================
+    // COMPONENTS
+    // ============================================
+    
+    const ScrollProgressBar = ({ progress, color }) => h('div', {
+      className: 'fixed top-0 left-0 right-0 h-1 z-50',
+      style: { background: 'rgba(0,0,0,0.1)' }
+    },
+      h('div', {
+        className: 'h-full transition-all duration-150',
+        style: { width: `${progress}%`, background: color }
+      })
+    );
+    
+    const Timer = ({ seconds, label, onComplete }) => {
+      const [remaining, setRemaining] = useState(seconds);
+      const [running, setRunning] = useState(false);
+      const intervalRef = useRef(null);
+      
+      useEffect(() => {
+        setRemaining(seconds);
+        setRunning(false);
+      }, [seconds]);
+      
+      useEffect(() => {
+        if (!running) return;
+        
+        intervalRef.current = setInterval(() => {
+          setRemaining(prev => {
+            if (prev <= 1) {
+              clearInterval(intervalRef.current);
+              setRunning(false);
+              if (navigator.vibrate) navigator.vibrate([200, 100, 200]);
+              onComplete?.();
+              return 0;
+            }
+            return prev - 1;
+          });
+        }, 1000);
+        
+        return () => clearInterval(intervalRef.current);
+      }, [running, onComplete]);
+      
+      const progress = (remaining / seconds) * 100;
+      const mins = Math.floor(remaining / 60);
+      const secs = remaining % 60;
+      
+      return h('div', {
+        className: 'mt-3 flex items-center gap-3 rounded-xl p-3',
+        style: { background: 'var(--timer-bg)', border: '1px solid var(--border)' }
+      },
+        h('div', { className: 'relative w-10 h-10' },
+          h('svg', { viewBox: '0 0 36 36', className: 'w-10 h-10 -rotate-90' },
+            h('circle', { cx: 18, cy: 18, r: 16, fill: 'none', stroke: 'currentColor', strokeWidth: 3, className: 'text-black/10' }),
+            h('circle', {
+              cx: 18, cy: 18, r: 16, fill: 'none', stroke: 'currentColor', strokeWidth: 3,
+              strokeLinecap: 'round',
+              strokeDasharray: `${progress}, 100`,
+              style: { color: 'var(--primary)', transition: 'stroke-dasharray 0.3s' }
+            })
+          ),
+          h('span', {
+            className: 'absolute inset-0 grid place-items-center text-xs font-bold'
+          }, `${mins}:${secs.toString().padStart(2, '0')}`)
+        ),
+        h('div', { className: 'flex-1 min-w-0' },
+          h('div', { className: 'text-xs font-semibold uppercase tracking-wider', style: { color: 'var(--primary)' } }, label),
+          h('div', { className: 'text-sm font-medium' },
+            remaining === 0 ? '✅ C\'est prêt!' : running ? '⏱️ En cours...' : 'Prêt à lancer'
+          )
+        ),
+        h('button', {
+          onClick: () => setRunning(!running),
+          className: 'h-9 rounded-full px-4 text-sm font-semibold transition active:scale-95',
+          style: { background: 'var(--foreground)', color: 'var(--background)' }
+        }, running ? 'Pause' : remaining === 0 ? 'Relancer' : 'Lancer')
+      );
+    };
+    
+    const VideoCard = ({ recipe, onPlay }) => {
+      const [loaded, setLoaded] = useState(false);
+      const videoId = VIDEOS[recipe.id];
+      
+      if (!videoId) return null;
+      
+      return h('div', {
+        className: 'rounded-xl overflow-hidden bg-white',
+        style: { boxShadow: 'var(--shadow-sm)' }
+      },
+        loaded
+          ? h('iframe', {
+              src: `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`,
+              className: 'w-full aspect-video',
+              allow: 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture',
+              allowFullScreen: true,
+              title: recipe.name
+            })
+          : h('button', {
+              onClick: () => setLoaded(true),
+              className: 'video-container w-full',
+              style: { background: `linear-gradient(135deg, ${recipe.color}DD, #111)` },
+              'aria-label': `Play ${recipe.name}`
+            },
+              h('div', {
+                className: 'absolute inset-0 flex flex-col items-center justify-center text-white p-4'
+              },
+                h('span', { className: 'text-3xl mb-2' }, recipe.emoji),
+                h('span', { className: 'font-bold text-center text-sm' }, recipe.name),
+                h('span', { className: 'text-xs opacity-70 mt-1' }, recipe.chinese)
+              )
+            ),
+        h('div', { className: 'p-3' },
+          h('p', { className: 'font-bold text-sm text-center' }, recipe.name),
+          h('p', { className: 'text-xs text-center mt-1', style: { color: 'var(--muted)' } }, recipe.nameAr)
+        )
+      );
+    };
+    
+    const AdPlaceholder = ({ width, height, label }) => h('div', {
+      className: 'ad-container my-4',
+      style: { maxWidth: width, height, margin: '16px auto' }
+    },
+      h('div', { className: 'text-center' },
+        h('div', { className: 'text-xs font-bold uppercase tracking-widest' }, 'Espace publicitaire'),
+        h('div', { className: 'text-xs mt-1' }, 'مساحة إعلانية'),
+        h('div', { className: 'text-[10px] mt-1 opacity-50 font-mono' }, `${width} × ${height}`)
+      )
+    );
+    
+    const RecipeCard = ({ recipe, onClick, lang }) => {
+      const name = lang === 'ar' ? recipe.nameAr : recipe.name;
+      
+      return h('button', {
+        onClick,
+        className: 'group text-left rounded-2xl overflow-hidden transition-all hover:scale-[1.02] hover:shadow-lg',
+        style: { background: 'white', border: '1px solid var(--border)' }
+      },
+        h('div', {
+          className: 'relative h-32 overflow-hidden',
+          style: { background: `linear-gradient(135deg, ${recipe.color}DD, #111)` }
+        },
+          h('div', { className: 'absolute inset-0 flex items-center justify-center' },
+            h('span', { className: 'text-5xl opacity-30' }, recipe.emoji)
+          ),
+          h('div', { className: 'absolute top-2 left-2 flex gap-1' },
+            h('span', {
+              className: 'px-2 py-0.5 rounded-full text-[10px] font-bold text-white',
+              style: { background: 'rgba(0,0,0,0.6)' }
+            }, 'REEL 30S'),
+            h('span', {
+              className: 'px-2 py-0.5 rounded-full text-[10px] font-bold',
+              style: { background: 'white', color: 'black' }
+            }, recipe.chinese)
+          ),
+          h('div', {
+            className: 'absolute bottom-2 right-2 h-8 w-8 rounded-full bg-white/20 backdrop-blur grid place-items-center text-white text-sm group-hover:scale-110 transition'
+          }, '▶')
+        ),
+        h('div', { className: 'p-4' },
+          h('h3', { className: 'font-bold text-base leading-tight line-clamp-1' }, name),
+          h('p', { className: 'text-xs mt-1 line-clamp-2', style: { color: 'var(--muted)' } },
+            lang === 'ar' ? recipe.introAr : recipe.intro
+          ),
+          h('div', { className: 'flex items-center justify-between mt-3' },
+            h('span', { className: 'text-xs font-bold', style: { color: recipe.color } },
+              '🌶️'.repeat(recipe.spice)
+            ),
+            h('span', { className: 'text-xs', style: { color: 'var(--muted)' } },
+              `${recipe.prep} + ${recipe.cook}`
+            )
+          )
+        )
+      );
+    };
+    
+    const RecipeDetail = ({ recipe, lang, portions, setPortions }) => {
+      const [checkedIngredients, setCheckedIngredients] = useState(new Set());
+      const [completedSteps, setCompletedSteps] = useState(new Set());
+      
+      const name = lang === 'ar' ? recipe.nameAr : recipe.name;
+      const intro = lang === 'ar' ? recipe.introAr : recipe.intro;
+      const story = lang === 'ar' ? recipe.storyAr : recipe.story;
+      const progress = Math.round((checkedIngredients.size / recipe.ingredients.length) * 100) || 0;
+      
+      const toggleIngredient = (id) => {
+        setCheckedIngredients(prev => {
+          const next = new Set(prev);
+          if (next.has(id)) next.delete(id);
+          else next.add(id);
+          return next;
+        });
+      };
+      
+      const toggleStep = (index) => {
+        setCompletedSteps(prev => {
+          const next = new Set(prev);
+          if (next.has(index)) next.delete(index);
+          else next.add(index);
+          return next;
+        });
+      };
+      
+      const share = async () => {
+        const url = window.location.href;
+        const title = `${name} - Sichuan.fr`;
+        try {
+          if (navigator.share) {
+            await navigator.share({ title, text: intro, url });
+          } else {
+            await navigator.clipboard.writeText(url);
+            showToast(lang === 'ar' ? '✅ تم نسخ الرابط' : '✅ Lien copié');
+          }
+        } catch {}
+      };
+      
+      return h('article', { className: 'animate-fade-in' },
+        // Breadcrumb
+        h('nav', { className: 'flex items-center gap-2 text-xs mb-4', style: { color: 'var(--muted)' } },
+          h('span', null, lang === 'ar' ? 'الرئيسية' : 'Accueil'),
+          h('span', null, '›'),
+          h('span', null, lang === 'ar' ? 'وصفات صينية' : 'Recettes chinoises'),
+          h('span', null, '›'),
+          h('span', { className: 'font-semibold', style: { color: 'var(--foreground)' } }, name)
+        ),
+        
+        // Header
+        h('header', { className: 'mb-6' },
+          h('div', { className: 'flex flex-wrap items-center gap-2 mb-3' },
+            h('span', {
+              className: 'px-3 py-1 rounded-full text-xs font-bold text-white',
+              style: { background: recipe.color }
+            }, `${recipe.chinese} · ${lang === 'ar' ? recipe.badgeAr : recipe.badge}`),
+            h('span', {
+              className: 'px-3 py-1 rounded-full text-xs font-semibold',
+              style: { background: 'white', border: '1px solid var(--border)' }
+            }, `${lang === 'ar' ? 'الحدة' : 'Épice'}: ${recipe.spice}/5`)
+          ),
+          h('h1', {
+            className: 'text-3xl sm:text-5xl font-black leading-tight tracking-tight',
+            style: { fontFamily: 'Fraunces, serif' }
+          },
+            name,
+            h('span', { className: 'block text-xl sm:text-2xl mt-1', style: { color: recipe.color } }, recipe.chinese)
+          ),
+          h('p', { className: 'text-sm mt-2 opacity-60' }, lang === 'ar' ? recipe.name : recipe.nameAr)
+        ),
+        
+        // Intro
+        h('p', { className: 'text-base leading-relaxed mb-6', style: { color: 'var(--muted-strong)' } }, intro),
+        
+        // Story
+        h('section', { className: 'mb-8 p-5 rounded-2xl', style: { background: 'white', border: '1px solid var(--border)' } },
+          h('h2', { className: 'text-lg font-bold mb-3 flex items-center gap-2' },
+            '📖', ' ', lang === 'ar' ? 'قصة الطبق' : 'Histoire'
+          ),
+          h('p', { className: 'text-sm leading-relaxed', style: { color: 'var(--muted-strong)' } }, story)
+        ),
+        
+        // Video
+        h('section', { className: 'mb-8' },
+          h('h2', { className: 'text-lg font-bold mb-3 flex items-center gap-2' },
+            '🎥', ' ', lang === 'ar' ? 'شاهد الطريقة' : 'Voir la méthode'
+          ),
+          h(VideoCard, { recipe })
+        ),
+        
+        // Stats
+        h('div', { className: 'grid grid-cols-3 gap-3 mb-8' },
+          [
+            { label: lang === 'ar' ? 'تحضير' : 'Prépa', value: recipe.prep, icon: '⏱️' },
+            { label: lang === 'ar' ? 'طهي' : 'Cuisson', value: recipe.cook, icon: '🔥' },
+            { label: lang === 'ar' ? 'الصعوبة' : 'Difficulté', value: lang === 'ar' ? recipe.difficultyAr : recipe.difficulty, icon: '📊' }
+          ].map((stat, i) =>
+            h('div', {
+              key: i,
+              className: 'p-3 rounded-xl text-center',
+              style: { background: 'white', border: '1px solid var(--border)' }
+            },
+              h('div', { className: 'text-lg' }, stat.icon),
+              h('div', { className: 'text-[10px] uppercase tracking-wider font-bold opacity-50 mt-1' }, stat.label),
+              h('div', { className: 'text-sm font-bold mt-1' }, stat.value)
+            )
+          )
+        ),
+        
+        // Portions
+        h('div', {
+          className: 'p-4 rounded-2xl mb-8',
+          style: { background: 'white', border: '1px solid var(--border)' }
+        },
+          h('div', { className: 'flex items-center justify-between' },
+            h('div', null,
+              h('div', { className: 'text-sm font-bold uppercase tracking-wider' },
+                lang === 'ar' ? 'تعديل الحصص' : 'Portions ajustables'
+              ),
+              h('div', { className: 'text-xs mt-1', style: { color: 'var(--muted)' } },
+                lang === 'ar' ? 'كل شيء يعاد حسابه فوراً' : 'Tout se recalcule instantanément'
+              )
+            ),
+            h('div', { className: 'flex items-center gap-2' },
+              h('button', {
+                onClick: () => setPortions(Math.max(1, portions - 1)),
+                className: 'w-10 h-10 rounded-full grid place-items-center text-xl font-bold active:scale-95 transition',
+                style: { background: 'var(--background)', border: '1px solid var(--border)' }
+              }, '−'),
+              h('div', {
+                className: 'min-w-[64px] h-10 rounded-full grid place-items-center font-bold px-4',
+                style: { background: 'var(--foreground)', color: 'var(--background)' }
+              }, `${portions} ${lang === 'ar' ? 'أشخاص' : 'pers.'}`),
+              h('button', {
+                onClick: () => setPortions(Math.min(8, portions + 1)),
+                className: 'w-10 h-10 rounded-full grid place-items-center text-xl font-bold active:scale-95 transition',
+                style: { background: 'var(--background)', border: '1px solid var(--border)' }
+              }, '+')
+            )
+          )
+        ),
+        
+        // Ingredients
+        h('section', { className: 'mb-8' },
+          h('div', { className: 'flex items-center justify-between mb-3' },
+            h('h2', { className: 'text-lg font-bold flex items-center gap-2' },
+              '🥢', ' ', lang === 'ar' ? 'المكونات' : 'Ingrédients'
+            ),
+            h('span', {
+              className: 'px-3 py-1 rounded-full text-xs font-bold',
+              style: { background: 'white', border: '1px solid var(--border)' }
+            }, `${checkedIngredients.size}/${recipe.ingredients.length} · ${progress}%`)
+          ),
+          h('div', {
+            className: 'h-2 rounded-full mb-4 overflow-hidden',
+            style: { background: 'var(--border)' }
+          },
+            h('div', {
+              className: 'h-full transition-all duration-300',
+              style: { width: `${progress}%`, background: recipe.color }
+            })
+          ),
+          h('div', { className: 'space-y-2' },
+            recipe.ingredients.map(ing =>
+              h('label', {
+                key: ing.id,
+                className: `flex items-center gap-3 p-3 rounded-xl cursor-pointer transition ${checkedIngredients.has(ing.id) ? 'opacity-50' : ''}`,
+                style: { background: 'white', border: '1px solid var(--border)' }
+              },
+                h('input', {
+                  type: 'checkbox',
+                  checked: checkedIngredients.has(ing.id),
+                  onChange: () => toggleIngredient(ing.id),
+                  className: 'w-5 h-5 rounded'
+                }),
+                h('span', {
+                  className: `flex-1 text-sm font-medium ${checkedIngredients.has(ing.id) ? 'line-through' : ''}`
+                }, lang === 'ar' ? ing.nameAr : ing.name),
+                h('span', {
+                  className: 'px-3 py-1 rounded-full text-xs font-bold',
+                  style: { background: 'var(--background)', border: '1px solid var(--border)' }
+                }, `${formatQty(ing.qty, portions)} ${lang === 'ar' ? ing.unitAr : ing.unit}`)
+              )
+            )
+          )
+        ),
+        
+        // Steps
+        h('section', { className: 'mb-8' },
+          h('h2', { className: 'text-lg font-bold mb-4 flex items-center gap-2' },
+            '👨‍🍳', ' ', lang === 'ar' ? 'طريقة التحضير' : 'Méthode'
+          ),
+          h('div', { className: 'space-y-4' },
+            recipe.steps.map((step, i) =>
+              h('div', {
+                key: i,
+                className: `p-5 rounded-2xl transition ${completedSteps.has(i) ? 'opacity-60' : ''}`,
+                style: { background: 'white', border: '1px solid var(--border)' }
+              },
+                h('div', { className: 'flex gap-4' },
+                  h('button', {
+                    onClick: () => toggleStep(i),
+                    className: `w-9 h-9 rounded-full grid place-items-center font-bold text-sm shrink-0 transition ${
+                      completedSteps.has(i) ? 'text-white' : ''
+                    }`,
+                    style: {
+                      background: completedSteps.has(i) ? recipe.color : 'var(--background)',
+                      border: `2px solid ${completedSteps.has(i) ? recipe.color : 'var(--border)'}`,
+                      color: completedSteps.has(i) ? 'white' : 'inherit'
+                    }
+                  }, completedSteps.has(i) ? '✓' : i + 1),
+                  h('div', { className: 'flex-1' },
+                    h('div', { className: 'flex flex-wrap items-center gap-2' },
+                      h('h3', {
+                        className: `font-bold ${completedSteps.has(i) ? 'line-through' : ''}`
+                      }, lang === 'ar' ? step.titleAr : step.title),
+                      h('span', {
+                        className: 'px-2 py-0.5 rounded-full text-[10px] font-bold uppercase',
+                        style: { background: 'var(--background)', border: '1px solid var(--border)' }
+                      }, step.time)
+                    ),
+                    h('p', { className: 'text-sm mt-2 leading-relaxed', style: { color: 'var(--muted-strong)' } },
+                      lang === 'ar' ? step.detailAr : step.detail
+                    ),
+                    step.timer && h(Timer, {
+                      seconds: step.timer,
+                      label: lang === 'ar' ? 'مؤقت' : 'Minuteur',
+                      onComplete: () => showToast(lang === 'ar' ? '⏰ انتهى الوقت!' : '⏰ Temps écoulé!')
+                    })
+                  )
+                )
+              )
+            )
+          )
+        ),
+        
+        // Tips
+        h('section', { className: 'mb-8' },
+          h('h2', { className: 'text-lg font-bold mb-3 flex items-center gap-2' },
+            '💡', ' ', lang === 'ar' ? 'نصائح الشيف' : 'Astuces chef'
+          ),
+          h('div', { className: 'grid gap-3 sm:grid-cols-2' },
+            recipe.tips.map((tip, i) =>
+              h('div', {
+                key: i,
+                className: 'p-4 rounded-xl',
+                style: { background: 'white', border: '1px solid var(--border)' }
+              },
+                h('div', { className: 'text-2xl mb-2' }, tip.icon),
+                h('div', { className: 'font-bold text-sm' }, lang === 'ar' ? tip.tAr : tip.t),
+                h('div', { className: 'text-xs mt-1', style: { color: 'var(--muted)' } },
+                  lang === 'ar' ? tip.dAr : tip.d
+                )
+              )
+            )
+          )
+        ),
+        
+        // Share
+        h('div', { className: 'flex flex-wrap gap-2' },
+          h('button', {
+            onClick: share,
+            className: 'h-10 rounded-full px-5 text-sm font-bold text-white transition active:scale-95',
+            style: { background: recipe.color }
+          }, lang === 'ar' ? '📤 مشاركة' : '📤 Partager'),
+          h('button', {
+            onClick: () => window.print(),
+            className: 'h-10 rounded-full px-5 text-sm font-bold transition active:scale-95',
+            style: { background: 'white', border: '1px solid var(--border)' }
+          }, lang === 'ar' ? '🖨️ طباعة' : '🖨️ Imprimer')
+        )
+      );
+    };
+    
+    const HomePage = ({ recipes, onSelectRecipe, lang, onToggleLang }) => {
+      const [search, setSearch] = useState('');
+      const [filter, setFilter] = useState('all');
+      
+      const filtered = useMemo(() => {
+        return recipes.filter(r => {
+          const matchesSearch = !search || 
+            r.name.toLowerCase().includes(search.toLowerCase()) ||
+            r.nameAr.includes(search) ||
+            r.chinese.includes(search);
+          
+          const matchesFilter = filter === 'all' || 
+            (filter === 'mild' && r.spice <= 2) ||
+            (filter === 'medium' && r.spice === 3) ||
+            (filter === 'hot' && r.spice >= 4);
+          
+          return matchesSearch && matchesFilter;
+        });
+      }, [recipes, search, filter]);
+      
+      return h('div', { className: 'animate-fade-in' },
+        // Hero
+        h('header', {
+          className: 'relative overflow-hidden rounded-3xl p-6 sm:p-10 mb-8',
+          style: { background: 'white', border: '1px solid var(--border)' }
+        },
+          h('div', {
+            className: 'absolute -top-24 -right-24 w-64 h-64 rounded-full opacity-10',
+            style: { background: 'var(--primary)', filter: 'blur(60px)' }
+          }),
+          h('div', { className: 'relative' },
+            h('div', { className: 'flex flex-wrap gap-2 mb-4' },
+              h('span', {
+                className: 'px-3 py-1 rounded-full text-xs font-bold text-white',
+                style: { background: 'var(--primary)' }
+              }, '11 وصفات سيتشوان'),
+              h('span', {
+                className: 'px-3 py-1 rounded-full text-xs font-bold text-white',
+                style: { background: '#111' }
+              }, '11 REELS 30S'),
+              h('span', {
+                className: 'px-3 py-1 rounded-full text-xs font-semibold',
+                style: { background: 'var(--background)', border: '1px solid var(--border)' }
+              }, 'PWA Ready')
+            ),
+            h('h1', {
+              className: 'text-3xl sm:text-5xl font-black leading-tight tracking-tight mb-3',
+              style: { fontFamily: 'Fraunces, serif' }
+            },
+              lang === 'ar' ? 'مطبخ سيتشوان الأصيل' : 'Cuisine du Sichuan',
+              h('span', { className: 'block', style: { color: 'var(--primary)' } },
+                lang === 'ar' ? 'الأصيل' : 'authentique'
+              )
+            ),
+            h('p', {
+              className: 'text-base max-w-2xl',
+              style: { color: 'var(--muted)' }
+            }, lang === 'ar'
+              ? 'دليل شامل لوصفات سيتشوان مع فيديوهات، مؤقتات، ومقادير قابلة للتعديل.'
+              : 'Guide complet des recettes Sichuan avec vidéos, minuteurs et portions ajustables.'
+            ),
+            
+            // Search & Filter
+            h('div', { className: 'mt-6 flex flex-col sm:flex-row gap-3' },
+              h('div', { className: 'flex-1 relative' },
+                h('input', {
+                  type: 'search',
+                  value: search,
+                  onChange: e => setSearch(e.target.value),
+                  placeholder: lang === 'ar' ? 'ابحث بمكون: دجاج، توفو، فلفل...' : 'Rechercher: poulet, tofu, piment...',
+                  className: 'w-full h-12 rounded-full px-5 pl-12 text-base outline-none transition',
+                  style: { background: 'var(--background)', border: '1px solid var(--border)' },
+                  'aria-label': lang === 'ar' ? 'بحث' : 'Rechercher'
+                }),
+                h('span', { className: 'absolute left-4 top-1/2 -translate-y-1/2 text-lg opacity-50' }, '🔍')
+              ),
+              h('div', { className: 'flex gap-2' },
+                [
+                  { id: 'all', label: lang === 'ar' ? 'الكل' : 'Tous' },
+                  { id: 'mild', label: lang === 'ar' ? 'خفيف' : 'Doux' },
+                  { id: 'medium', label: lang === 'ar' ? 'متوسط' : 'Moyen' },
+                  { id: 'hot', label: lang === 'ar' ? 'حار' : 'Fort' }
+                ].map(f =>
+                  h('button', {
+                    key: f.id,
+                    onClick: () => setFilter(f.id),
+                    className: `h-12 px-4 rounded-full text-sm font-bold transition ${
+                      filter === f.id ? 'text-white' : ''
+                    }`,
+                    style: {
+                      background: filter === f.id ? 'var(--foreground)' : 'white',
+                      border: '1px solid var(--border)'
+                    }
+                  }, f.label)
+                )
+              )
+            )
+          )
+        ),
+        
+        // Ad
+        h(AdPlaceholder, { width: 728, height: 90, label: 'Top Banner' }),
+        
+        // Results count
+        h('p', { className: 'text-sm mb-4', style: { color: 'var(--muted)' } },
+          `${filtered.length} ${lang === 'ar' ? 'وصفة' : 'recettes'}`
+        ),
+        
+        // Recipe Grid
+        h('div', { className: 'grid gap-4 sm:grid-cols-2 lg:grid-cols-3' },
+          filtered.map(recipe =>
+            h(RecipeCard, {
+              key: recipe.id,
+              recipe,
+              onClick: () => onSelectRecipe(recipe.id),
+              lang
+            })
+          )
+        ),
+        
+        // Empty state
+        filtered.length === 0 && h('div', {
+          className: 'p-10 text-center rounded-2xl',
+          style: { background: 'white', border: '1px solid var(--border)' }
+        },
+          h('div', { className: 'text-4xl mb-3' }, '🔍'),
+          h('p', { className: 'font-bold' }, lang === 'ar' ? 'لم نجد أي وصفة' : 'Aucune recette trouvée'),
+          h('button', {
+            onClick: () => { setSearch(''); setFilter('all'); },
+            className: 'mt-4 h-10 rounded-full px-5 text-sm font-bold text-white',
+            style: { background: 'var(--foreground)' }
+          }, lang === 'ar' ? 'إعادة تعيين' : 'Réinitialiser')
+        )
+      );
+    };
+    
+    const VideosPage = ({ recipes, lang }) => {
+      return h('div', { className: 'animate-fade-in' },
+        h('header', { className: 'mb-8' },
+          h('h1', {
+            className: 'text-3xl sm:text-4xl font-black tracking-tight mb-2',
+            style: { fontFamily: 'Fraunces, serif' }
+          }, lang === 'ar' ? '🎥 جميع الفيديوهات' : '🎥 Toutes les vidéos'),
+          h('p', { className: 'text-base', style: { color: 'var(--muted)' } },
+            lang === 'ar'
+              ? '11 فيديو تعليمي من YouTube - المصدر: قنوات الطهي العامة'
+              : '11 vidéos éducatives de YouTube - Source: chaînes de cuisine publiques'
+          )
+        ),
+        
+        // Disclaimer
+        h('div', {
+          className: 'p-4 rounded-xl mb-6 text-sm leading-relaxed',
+          style: { background: '#FEF3C7', borderLeft: '4px solid #F59E0B', color: '#92400E' }
+        },
+          h('strong', null, '⚠️ تنبيه / Attention: '),
+          lang === 'ar'
+            ? 'هذه الفيديوهات ليست ملكنا - جمعناها من YouTube لأغراض تعليمية. جميع الحقوق لأصحابها.'
+            : 'Ces vidéos ne nous appartiennent pas - collectées de YouTube à titre éducatif. Tous droits réservés.'
+        ),
+        
+        // Video Grid
+        h('div', { className: 'grid gap-4 sm:grid-cols-2 lg:grid-cols-3' },
+          recipes.map(recipe => h(VideoCard, { key: recipe.id, recipe }))
+        )
+      );
+    };
+    
+    const AdminPage = ({ lang }) => {
+      const [subscribers, setSubscribers] = useState([]);
+      const [views] = useLocalStorage('sichuan_views', 0);
+      
+      useEffect(() => {
+        try {
+          const stored = JSON.parse(localStorage.getItem('sichuan_subscribers') || '[]');
+          setSubscribers(stored);
+        } catch {}
+      }, []);
+      
+      const exportCSV = () => {
+        const csv = 'email,date\n' + subscribers.map(s => `"${s.email}","${s.date}"`).join('\n');
+        const blob = new Blob([csv], { type: 'text/csv' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `subscribers_${new Date().toISOString().slice(0, 10)}.csv`;
+        a.click();
+        URL.revokeObjectURL(url);
+      };
+      
+      return h('div', { className: 'animate-fade-in' },
+        h('h1', {
+          className: 'text-2xl sm:text-3xl font-black mb-6',
+          style: { fontFamily: 'Fraunces, serif' }
+        }, lang === 'ar' ? '📊 لوحة التحكم' : '📊 Tableau de bord'),
+        
+        h('div', { className: 'grid gap-4 sm:grid-cols-3 mb-8' },
+          [
+            { label: lang === 'ar' ? 'المشتركين' : 'Abonnés', value: subscribers.length, icon: '👥' },
+            { label: lang === 'ar' ? 'المشاهدات' : 'Vues', value: views, icon: '👁️' },
+            { label: lang === 'ar' ? 'الوصفات' : 'Recettes', value: RECIPES.length, icon: '📖' }
+          ].map((stat, i) =>
+            h('div', {
+              key: i,
+              className: 'p-5 rounded-2xl',
+              style: { background: 'white', border: '1px solid var(--border)' }
+            },
+              h('div', { className: 'text-2xl mb-2' }, stat.icon),
+              h('div', { className: 'text-3xl font-black' }, stat.value),
+              h('div', { className: 'text-xs mt-1', style: { color: 'var(--muted)' } }, stat.label)
+            )
+          )
+        ),
+        
+        h('div', {
+          className: 'rounded-2xl overflow-hidden',
+          style: { background: 'white', border: '1px solid var(--border)' }
+        },
+          h('div', {
+            className: 'p-4 flex items-center justify-between',
+            style: { borderBottom: '1px solid var(--border)' }
+          },
+            h('h2', { className: 'font-bold' }, lang === 'ar' ? 'قائمة المشتركين' : 'Liste des abonnés'),
+            h('button', {
+              onClick: exportCSV,
+              className: 'h-9 rounded-full px-4 text-sm font-bold text-white',
+              style: { background: 'var(--foreground)' }
+            }, '📥 CSV')
+          ),
+          subscribers.length === 0
+            ? h('div', { className: 'p-10 text-center', style: { color: 'var(--muted)' } },
+                lang === 'ar' ? 'لا يوجد مشتركين بعد' : 'Aucun abonné pour le moment'
+              )
+            : h('div', { className: 'divide-y', style: { borderColor: 'var(--border)' } },
+                subscribers.map((sub, i) =>
+                  h('div', { key: i, className: 'p-4 flex items-center justify-between' },
+                    h('div', null,
+                      h('div', { className: 'font-semibold text-sm' }, sub.email),
+                      h('div', { className: 'text-xs mt-1', style: { color: 'var(--muted)' } },
+                        new Date(sub.date).toLocaleString()
+                      )
+                    )
+                  )
+                )
+              )
+        )
+      );
+    };
+    
+    const App = () => {
+      const [lang, setLang] = useLocalStorage('sichuan_lang', 'ar');
+      const [view, setView] = useState('home');
+      const [selectedRecipe, setSelectedRecipe] = useState(null);
+      const [portions, setPortions] = useState(2);
+      const [pwaPrompt, setPwaPrompt] = useState(null);
+      const scrollProgress = useScrollProgress();
+      
+      const recipe = useMemo(() => 
+        RECIPES.find(r => r.id === selectedRecipe) || RECIPES[0]
+      , [selectedRecipe]);
+      
+      useEffect(() => {
+        document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+        document.documentElement.lang = lang;
+      }, [lang]);
+      
+      useEffect(() => {
+        const handleBeforeInstall = (e) => {
+          e.preventDefault();
+          setPwaPrompt(e);
+        };
+        window.addEventListener('beforeinstallprompt', handleBeforeInstall);
+        return () => window.removeEventListener('beforeinstallprompt', handleBeforeInstall);
+      }, []);
+      
+      const installPWA = async () => {
+        if (pwaPrompt) {
+          pwaPrompt.prompt();
+          const { outcome } = await pwaPrompt.userChoice;
+          if (outcome === 'accepted') showToast(lang === 'ar' ? '✅ تم التثبيت!' : '✅ Installé!');
+          setPwaPrompt(null);
+        } else {
+          showToast(lang === 'ar' ? '📱 استخدم قائمة المتصفح للتثبيت' : '📱 Utilisez le menu du navigateur');
+        }
+      };
+      
+      return h('div', { style: { minHeight: '100vh' } },
+        h(ScrollProgressBar, { progress: scrollProgress, color: recipe.color }),
+        
+        // Header
+        h('header', {
+          className: 'sticky top-0 z-40',
+          style: {
+            background: 'rgba(255, 247, 237, 0.9)',
+            backdropFilter: 'blur(12px)',
+            borderBottom: '1px solid var(--border)'
+          }
+        },
+          h('div', {
+            className: 'max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-4'
+          },
+            h('button', {
+              onClick: () => { setView('home'); setSelectedRecipe(null); },
+              className: 'flex items-center gap-2'
+            },
+              h('div', {
+                className: 'w-9 h-9 rounded-full grid place-items-center text-white font-black',
+                style: { background: 'var(--primary)' }
+              }, '川'),
+              h('div', { className: 'text-left' },
+                h('div', { className: 'font-bold text-sm leading-tight' }, 'Sichuan.fr'),
+                h('div', { className: 'text-[10px]', style: { color: 'var(--muted)' } },
+                  lang === 'ar' ? 'مطبخ سيتشوان' : 'Cuisine Sichuan'
+                )
+              )
+            ),
+            
+            h('nav', { className: 'flex items-center gap-2' },
+              h('button', {
+                onClick: () => { setView('home'); setSelectedRecipe(null); },
+                className: `h-9 px-4 rounded-full text-xs font-bold uppercase tracking-wider transition ${
+                  view === 'home' ? 'text-white' : ''
+                }`,
+                style: {
+                  background: view === 'home' ? 'var(--foreground)' : 'white',
+                  border: '1px solid var(--border)'
+                }
+              }, lang === 'ar' ? 'الرئيسية' : 'Accueil'),
+              
+              h('button', {
+                onClick: () => setView('videos'),
+                className: `h-9 px-4 rounded-full text-xs font-bold uppercase tracking-wider transition ${
+                  view === 'videos' ? 'text-white' : ''
+                }`,
+                style: {
+                  background: view === 'videos' ? 'var(--foreground)' : 'white',
+                  border: '1px solid var(--border)'
+                }
+              }, '🎥'),
+              
+              h('button', {
+                onClick: () => setView('admin'),
+                className: `h-9 px-4 rounded-full text-xs font-bold uppercase tracking-wider transition ${
+                  view === 'admin' ? 'text-white' : ''
+                }`,
+                style: {
+                  background: view === 'admin' ? 'var(--foreground)' : 'white',
+                  border: '1px solid var(--border)'
+                }
+              }, '📊'),
+              
+              h('button', {
+                onClick: () => setLang(lang === 'ar' ? 'fr' : 'ar'),
+                className: 'h-9 px-4 rounded-full text-xs font-bold uppercase tracking-wider',
+                style: { background: 'white', border: '1px solid var(--border)' }
+              }, lang === 'ar' ? 'FR' : 'AR'),
+              
+              h('button', {
+                onClick: installPWA,
+                className: 'hidden sm:flex h-9 px-4 rounded-full text-xs font-bold uppercase tracking-wider text-white items-center gap-1.5',
+                style: { background: '#111' }
+              }, '📱', ' ', lang === 'ar' ? 'تثبيت' : 'Installer')
+            )
+          )
+        ),
+        
+        // Main
+        h('main', {
+          id: 'main-content',
+          className: 'max-w-6xl mx-auto px-4 sm:px-6 py-8'
+        },
+          view === 'home' && h(HomePage, {
+            recipes: RECIPES,
+            onSelectRecipe: (id) => { setSelectedRecipe(id); setView('recipe'); },
+            lang,
+            onToggleLang: () => setLang(lang === 'ar' ? 'fr' : 'ar')
+          }),
+          
+          view === 'recipe' && h(RecipeDetail, {
+            recipe,
+            lang,
+            portions,
+            setPortions
+          }),
+          
+          view === 'videos' && h(VideosPage, { recipes: RECIPES, lang }),
+          
+          view === 'admin' && h(AdminPage, { lang }),
+          
+          // Back button
+          view !== 'home' && h('button', {
+            onClick: () => { setView('home'); setSelectedRecipe(null); },
+            className: 'mt-8 h-11 rounded-full px-6 text-sm font-bold',
+            style: { background: 'white', border: '1px solid var(--border)' }
+          }, lang === 'ar' ? '← رجوع للرئيسية' : '← Retour à l\'accueil')
+        ),
+        
+        // Footer
+        h('footer', {
+          className: 'mt-16 py-8',
+          style: { borderTop: '1px solid var(--border)', background: 'white' }
+        },
+          h('div', { className: 'max-w-6xl mx-auto px-4 sm:px-6' },
+            h('div', { className: 'flex flex-wrap items-center justify-between gap-4' },
+              h('div', { className: 'text-sm', style: { color: 'var(--muted)' } },
+                `© 2025 Sichuan.fr · ${RECIPES.length} ${lang === 'ar' ? 'وصفة' : 'recettes'}`
+              ),
+              h('div', { className: 'flex gap-4 text-xs', style: { color: 'var(--muted)' } },
+                h('a', { href: '#', className: 'hover:underline' }, lang === 'ar' ? 'الخصوصية' : 'Confidentialité'),
+                h('a', { href: '#', className: 'hover:underline' }, lang === 'ar' ? 'الشروط' : 'Conditions'),
+                h('a', { href: '#', className: 'hover:underline' }, 'AdSense')
+              )
+            )
+          )
+        )
+      );
+    };
+    
+    // ============================================
+    // MOUNT
+    // ============================================
+    
+    const root = createRoot(document.getElementById('root'));
+    root.render(h(App));
+    
+  </script>
+  
+  <!-- PWA Manifest (inline) -->
+  <script>
+    const manifest = {
+      name: 'Sichuan.fr - Recettes Authentiques',
+      short_name: 'Sichuan',
+      description: '11 recettes Sichuan avec vidéos, minuteurs et portions ajustables',
+      start_url: '/',
+      display: 'standalone',
+      background_color: '#FFF7ED',
+      theme_color: '#D92D20',
+      icons: [
+        {
+          src: 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">🌶️</text></svg>',
+          sizes: '192x192',
+          type: 'image/svg+xml'
+        }
+      ]
+    };
+    
+    const blob = new Blob([JSON.stringify(manifest)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('link');
+    link.rel = 'manifest';
+    link.href = url;
+    document.head.appendChild(link);
+  </script>
+</body>
+</html>
